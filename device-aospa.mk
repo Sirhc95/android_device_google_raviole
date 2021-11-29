@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Properties
+TARGET_VENDOR_PROP := device/google/raviole/vendor.prop
+
 # Telephony
 PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
