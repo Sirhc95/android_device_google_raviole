@@ -27,6 +27,10 @@ TARGET_PREBUILT_KERNEL := device/google/raviole-kernel/Image.lz4
 # Properties
 TARGET_VENDOR_PROP := device/google/raviole/vendor.prop
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    DEVICE_PROVISIONED=1 \
+    ro.telephony.default_network=33,33
+
 # Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     system/bt/conf \
