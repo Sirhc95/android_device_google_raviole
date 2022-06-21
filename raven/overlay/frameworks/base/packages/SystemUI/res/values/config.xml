@@ -76,8 +76,5 @@
     <string translatable="false" name="config_cameraProtectionExcludedPackages">com.google.android.as</string>
 
     <bool name="config_enableDisplayCutoutProtection">true</bool>
-
-	<!-- Udfps HBM provider class name -->
-    <string name="config_udfpsHbmProviderComponent">com.android.systemui.biometrics.PixelUdfpsHbmProvider</string>
 </resources>
 
